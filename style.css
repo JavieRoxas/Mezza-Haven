@@ -85,6 +85,10 @@ body {
   background: var(--warm);
   border-bottom: 1px solid var(--border);
   scrollbar-width: none;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .nav-pills::-webkit-scrollbar { display: none; }
